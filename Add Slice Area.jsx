@@ -40,12 +40,10 @@ try {
 // 実行
 //==================================================
 if(doc) {
-	// 定規の単位を変更app.preferences.resolution
+	// 定規の単位と解像度を変更
 	app.preferences.rulerUnits =  Units.PIXELS;
 	startResolution = doc.resolution;
-	if(doc.resolution != 72) {
-		doc.resizeImage(doc.width, doc.height, 72);
-	}
+	if(doc.resolution != 72) doc.resizeImage(doc.width, doc.height, 72);
 	// 実行
 	try {
 		doc.suspendHistory(SCRIPT_TITLE, 'addSliceArea()');
@@ -53,10 +51,8 @@ if(doc) {
 		alert(e);
 		executeAction( charIDToTypeID('undo'), undefined, DialogModes.NO );
 	}
-	// 定規の単位を戻す
-	if(startResolution != 72) {
-		doc.resizeImage(doc.width, doc.height, startResolution);
-	}
+	// 定規の単位と解像度を戻す
+	if(startResolution != 72) doc.resizeImage(doc.width, doc.height, startResolution);
 	app.preferences.rulerUnits =  startRulerUnits;
 } else {
 	alert("有効なドキュメントがありません");
