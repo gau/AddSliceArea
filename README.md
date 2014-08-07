@@ -2,6 +2,8 @@
 
 指定した範囲の四隅に、目に見えないくらいの透明度でシェイプを追加します。Photoshopの画像アセット生成やSlicy.appなどで、余白のあるスライスをしたいときに便利です。
 
+[図入りの説明](http://graphicartsunit.tumblr.com/post/94075304659/slicy-photoshop-add-slice)
+
 -----
 
 ### 更新履歴 ###
