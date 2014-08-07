@@ -21,9 +21,11 @@ Photoshop CS5／CS6／CC／CC2014
 1. ダウンロードしたzipファイルを解凍します。
 2. zipファイルを解凍すると「Add Slice Area.jsx」「README.md」「LICENSE.txt」という4つのファイルができますが、実際に使うのは「Add Slice Area.jsx」1点だけです。
 以下の場所に「Add Slice Area.jsx」をコピーします。Windows版では、お使いのPhotoshopのモードによって、保存する場所が異なりますのでご注意ください。
+
 * 【Mac】/Applications/Adobe Photoshop [CS6/CC]/Presets/Scripts/
 * 【Windows 64bit版】C:\Program Files\Adobe\Adobe Photoshop {CS6/CC/CC2014} (64 Bit)\Presets\Scripts\
 * 【Windows 32bit版】C:\Program Files (x86)\Adobe\Adobe Photoshop {CS6/CC}\Presets\Scripts\
+
 3. Photoshopを再起動します。
 4. “ファイル”メニュー→“スクリプト”に“Add Slice Area”と表示されていれば、インストール成功です。
 
